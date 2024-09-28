@@ -1,0 +1,71 @@
+.footbar {
+  height: 40px;
+  background-color: rgba(33, 40, 54, 0.738);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.15s;
+}
+
+.footbar:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.info-footer  {
+  background-color: rgb(39, 42, 56);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-bottom: 30px;
+}
+
+.get-to-know, .make-money, .pay-products, .help {
+  display: inline-block;
+}
+
+.topic {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info {
+  color: rgb(174, 172, 172);
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.info:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-footer {
+  background-color: #0f1111;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+  column-gap: 75px;
+  justify-content: center;
+}
+
+.main-footer div {
+  width: 50px;
+  display: inline-block;
+}
+
+.main-footer p {
+  color: rgb(174, 172, 172);
+  font-size: 12px;
+}
+
+.main-footer .foot-topic {
+  color: white;
+}

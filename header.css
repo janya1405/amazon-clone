@@ -1,0 +1,209 @@
+.header {
+  background-color: #0f1111;
+  color: white;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.left-section p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.location {
+  width: 85px;
+  display: grid;
+  grid-template-columns: 15px 1fr;
+  padding: 5px;
+}
+
+.location-dot {
+  margin-top: 13px;
+}
+
+.deliver {
+  color: rgb(217, 215, 215);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.place {
+  font-weight: bold;
+}
+
+.left-section img {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.location:hover {
+  cursor: pointer;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.all-options{
+  width: 50px;
+  height: 35px;
+  background-color: rgb(217, 215, 215);
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+  transition: opacity 0.15s;
+}
+
+.all-options:hover, .search-icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.all-options:active, .search-icon:active {
+  border-radius: 2px;
+  border-color: rgb(244, 170, 11);
+  border-style: solid;
+  box-shadow: 1px 1px 1px rgb(253, 176, 42);
+}
+
+.searchbar {
+  flex: 1;
+  height: 33px;
+  border: none;
+  border-left: 1px;
+  border-color: gray;
+}
+
+.searchbar::placeholder {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.search-icon{
+  width: 40px;
+  height: 35px;
+  background-color: rgb(253, 176, 42);
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: opacity 0.15s;
+}
+
+.right-section {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language {
+  display: grid;
+  width: 70px;
+  grid-template-columns: 30px 20px 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.flag {
+  height: 25px;
+  width: 25px;
+  margin-top: 20px;
+}
+
+.language p {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 450;
+  margin-top: 23px;
+}
+
+.language:hover {
+  cursor: pointer;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+.sign-in {
+  width: 130px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 130px;
+  line-height: 0;
+  column-gap: 0;
+  padding-left: 15px;
+}
+
+.hello {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.account {
+  margin-top: -20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  cursor: pointer;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+.orders {
+  width: 80px;
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 80px;
+  line-height: 0;
+  column-gap: 0;
+  padding-left: 15px;
+}
+
+.returns {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.order {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.cart-option {
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
